@@ -1,14 +1,110 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
+  "products": [
+    {
+      "id": 0
+    },
+    {
+      "name": "Casual",
+      "url": "http://localhost:1234/Mockup1.c78135d7.jpg",
+      "price": "$140.00",
+      "productId": "Casualhttp://localhost:1234/Mockup1.c78135d7.jpg",
+      "id": 1
+    },
+    {
+      "name": "Formal",
+      "url": "http://localhost:1234/Mockup2.fa6da8cd.jpg",
+      "price": "$400.00",
+      "productId": "Formalhttp://localhost:1234/Mockup2.fa6da8cd.jpg",
+      "id": 2
+    },
+    {
+      "name": "Vintage",
+      "url": "http://localhost:1234/Mockup4.3d61f448.jpg",
+      "price": "$60.00",
+      "productId": "Vintagehttp://localhost:1234/Mockup4.3d61f448.jpg",
+      "id": 3
+    },
+    {
+      "name": "Preppy",
+      "url": "http://localhost:1234/Mockup6.583a02a4.jpg",
+      "price": "$900.00",
+      "productId": "Preppyhttp://localhost:1234/Mockup6.583a02a4.jpg",
+      "id": 4
+    },
+    {
+      "name": "Bohemian",
+      "url": "http://localhost:1234/Mockup3.f6ad30d1.jpg",
+      "price": "$180.00",
+      "productId": "Bohemianhttp://localhost:1234/Mockup3.f6ad30d1.jpg",
+      "id": 5
+    },
+    {
+      "name": "Athletic",
+      "url": "http://localhost:1234/Mockup7.2dff5cc4.jpg",
+      "price": "$70.00",
+      "productId": "Athletichttp://localhost:1234/Mockup7.2dff5cc4.jpg",
+      "id": 6
+    },
+    {
+      "name": "Streetwear",
+      "url": "http://localhost:1234/Mockup5.bd672470.jpg",
+      "price": "$100.00",
+      "productId": "Streetwearhttp://localhost:1234/Mockup5.bd672470.jpg",
+      "id": 7
+    }
   ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
+  "cart": [
+    {
+      "id": 0
+    },
+    {
+      "name": "Casual",
+      "url": "http://localhost:1234/Mockup1.c78135d7.jpg",
+      "price": "$140.00",
+      "productId": "Casualhttp://localhost:1234/Mockup1.c78135d7.jpg",
+      "id": 1
+    },
+    {
+      "name": "Formal",
+      "url": "http://localhost:1234/Mockup2.fa6da8cd.jpg",
+      "price": "$400.00",
+      "productId": "Formalhttp://localhost:1234/Mockup2.fa6da8cd.jpg",
+      "id": 2
+    },
+    {
+      "name": "Vintage",
+      "url": "http://localhost:1234/Mockup4.3d61f448.jpg",
+      "price": "$60.00",
+      "productId": "Vintagehttp://localhost:1234/Mockup4.3d61f448.jpg",
+      "id": 3
+    },
+    {
+      "name": "Preppy",
+      "url": "http://localhost:1234/Mockup6.583a02a4.jpg",
+      "price": "$900.00",
+      "productId": "Preppyhttp://localhost:1234/Mockup6.583a02a4.jpg",
+      "id": 4
+    },
+    {
+      "name": "Bohemian",
+      "url": "http://localhost:1234/Mockup3.f6ad30d1.jpg",
+      "price": "$180.00",
+      "productId": "Bohemianhttp://localhost:1234/Mockup3.f6ad30d1.jpg",
+      "id": 5
+    },
+    {
+      "name": "Athletic",
+      "url": "http://localhost:1234/Mockup7.2dff5cc4.jpg",
+      "price": "$70.00",
+      "productId": "Athletichttp://localhost:1234/Mockup7.2dff5cc4.jpg",
+      "id": 6
+    }
   ],
-  "profile": {
-    "name": "typicode"
-  }
+  "users": [
+    {
+      "username": "CAP.AD",
+      "email": "cap.ad.com",
+      "password": "fakepassword"
+    }
+  ]
 }
